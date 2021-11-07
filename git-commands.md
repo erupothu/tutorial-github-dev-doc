@@ -68,6 +68,15 @@
   *  `git stash branch branch-105'
   *  Git Cleaning
   *  `git clean -f` (delete permanently without going to recycle bin all untrackef files or ignore files)
-  *  `git clean -f -d' (delete untracked file and folders)
-  *  `git clearn -f -d -x) (remove ignore files)
-  *  `git clean -f -n' (alert deleting files)
+  *  `git clean -f -d` (delete untracked file and folders)
+  *  `git clearn -f -d -x` (remove ignore files)
+  *  `git clean -f -n` (alert deleting files)
+  *  Git Tagging
+  *  `git tag -l`
+  *  `git tag`
+  *  `git commit -am "final commit and release"`
+  *  `git tag -a v2.0`
+  *  `git diff v1.0 v2.0`
+  *  `git tag -d v1.0` (delete tag)
+  *  `git tag -a v1.0 commit-id` (provide tag to any of the commit)
+  *  `git tag -a v1.0 -f commit-id (overide the tag to new commit)
