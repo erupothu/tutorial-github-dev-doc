@@ -80,3 +80,5 @@
   *  `git tag -d v1.0` (delete tag)
   *  `git tag -a v1.0 commit-id` (provide tag to any of the commit)
   *  `git tag -a v1.0 -f commit-id (overide the tag to new commit)
+  *  `git push origin --tags`
+  *  `git push origin v1.0`
