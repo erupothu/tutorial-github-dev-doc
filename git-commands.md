@@ -2,6 +2,7 @@
 * create folder(harishe-techie) and project files (ex: home.html, about.html, contact.html)
 * create git project
   * `git init`
+  * `git add .` (add all files)
   * `git status` (show status about files to add, conficts, commits etc)
   * Commint the files
     * `git commit -m "initial commit"`
@@ -43,5 +44,30 @@
   *  `git fetch orign` (fetch changes from remote server to origin master)
   *  `git branch -a`
   *  `git merge origin/master` (merge remote chanes to local)
-  *  'git pull origin master` (directly pull changes from remote to local)
+  *  `git pull origin master` (directly pull changes from remote to local)
   *  `git push origin master`
+  *  `git diff` (difference in file)
+  *  Git Alias
+  *  `git config --global alias.allcommits "log --onloine --graph --all"`
+  *  `git allcommits`
+  *  Git Rebase
+  *  `git merge barnch-103` Merge (merge changes from one branch to another)
+  *  `git rebase branch-102' rebase (marge changes from one branches to another with commit history linear without confusing new developers)
+  *  `git commit -m "merged conflict file"`
+  *  `git ignore .orig (ignore commit .orignal files)
+  *  `git rebase --continue`
+  *  Git Stashing
+  *  `git status`
+  *  `git stash` (push changed files moved to stash(recycle bin) we can extract back)
+  *  `git stash list` (check stashed files)
+  *  `git stash apply` (extract back latest stashed file back to project)
+  *  `git stash drop` (remove latest file permanently from stash)
+  *  `git stash apply stash!{5} (fetch back 5th lastes stahed/recyclebin file)
+  *  `git stash pop` (remove from stasha and add to project)
+  *  `git stash -u`
+  *  `git stash branch branch-105'
+  *  Git Cleaning
+  *  `git clean -f` (delete permanently without going to recycle bin all untrackef files or ignore files)
+  *  `git clean -f -d' (delete untracked file and folders)
+  *  `git clearn -f -d -x) (remove ignore files)
+  *  `git clean -f -n' (alert deleting files)
