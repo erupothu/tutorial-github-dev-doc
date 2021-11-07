@@ -82,3 +82,4 @@
   *  `git tag -a v1.0 -f commit-id (overide the tag to new commit)
   *  `git push origin --tags`
   *  `git push origin v1.0`
+  *  `git tag --list "v1.*"` (search for tags from list)
